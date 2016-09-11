@@ -46,6 +46,7 @@ var emotes = {
 	'yonofui':'http://i.imgur.com/Cm3XSLE.png',
 	':umad?:': 'http://i.imgur.com/tHON8LQ.jpg',
 	'banishmoon': 'http://i.imgur.com/R9BCKjK.jpg',
+	'banishsun': 'http://i.imgur.com/PsiroeP.jpg',
 	'facepalm': 'http://i.imgur.com/S69PFuc.png',
 	':pew:': 'http://i.imgur.com/Gcx2QTn.gif',
 	'baneverypony': 'http://i.imgur.com/I6y8T0E.png',
