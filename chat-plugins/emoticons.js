@@ -15,6 +15,7 @@ var emotes = {
 	'oshet': 'http://i.imgur.com/973LjcS.gif',
 	':jejeje:': 'http://i.imgur.com/gWtOs04.gif',
 	':spoopy:': 'http://i.imgur.com/yuDSicN.gif',
+	':hug:': 'http://i.imgur.com/JpgwVRL.gif',
 	':defeated:': 'http://i.imgur.com/wVRUyli.gif',
 	'whathe': 'http://i.imgur.com/J62J2EC.gif',
 	'celenny': 'http://i.imgur.com/QGeRmLk.gif',
