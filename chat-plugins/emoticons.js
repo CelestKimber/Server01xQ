@@ -13,8 +13,8 @@ var emotes = {
 	':rainbowdash:': 'http://i.imgur.com/V6rpD1f.gif',
 	':rarity:': 'http://i.imgur.com/p8DP65c.gif',
 	'pukerainbows': 'http://i.imgur.com/X3Yg3Az.gif',
-	'lulenny': 'http://i.imgur.com/M1g52S6.gif'
-	':baka:': 'http://i.imgur.com/jUJLHP7.gif'
+	'lulenny': 'http://i.imgur.com/M1g52S6.gif',
+	':baka:': 'http://i.imgur.com/jUJLHP7.gif',
 	'oshet': 'http://i.imgur.com/973LjcS.gif',	
 	':spoopy:': 'http://i.imgur.com/yuDSicN.gif',
 	':hug:': 'http://i.imgur.com/JpgwVRL.gif',
