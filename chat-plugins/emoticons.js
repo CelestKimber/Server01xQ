@@ -18,7 +18,7 @@ var emotes = {
 	'celespit': 'http://i.imgur.com/pSQZEtV.png',
 	'lulenny': 'http://i.imgur.com/M1g52S6.gif',
 	'celesnom': 'http://i.imgur.com/yCXnOyD.png',
-	'lunanom': 'http://i.imgur.com/sQF5hMw.png'
+	'lunanom': 'http://i.imgur.com/sQF5hMw.png',
 	'dashnom': 'http://i.imgur.com/kwpYMpy.png',
 	'derpynom': 'http://i.imgur.com/rhVv9Ur.png',
 	'sweetienom': 'http://i.imgur.com/tEL1EVD.png',
