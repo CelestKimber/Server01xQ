@@ -25,7 +25,7 @@ var emotes = {
 	':tarea:': 'http://i.imgur.com/2pfO7Jx.png',
 	':nausea:': 'http://i.imgur.com/Ftb7lCZ.png',
 	':sad:': 'http://i.imgur.com/04kQgEK.png',
-	'a3a': 'http://i.imgur.com/x6lyfJM.png',
+	'scoo3': 'http://i.imgur.com/x6lyfJM.png',
 	'seduce': 'http://i.imgur.com/SozXDPC.gif',
 	':baka:': 'http://i.imgur.com/jUJLHP7.gif',
 	':death:': 'http://i.imgur.com/Ftb7lCZ.png',
