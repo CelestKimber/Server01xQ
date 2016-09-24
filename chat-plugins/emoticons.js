@@ -11,6 +11,9 @@ exports.parseEmoticons = parseEmoticons;
 var emotes = {
         ':fluttershy:': 'http://i.imgur.com/Q56mz3L.gif',
         'rainming': 'http://i.imgur.com/mfNeL0Y.png',
+        ':compu:': 'http://i.imgur.com/UglPsfu.png',
+        ':laptop:': 'http://i.imgur.com/i3OTsPv.png',
+        ':celtab:': 'http://i.imgur.com/02ZPf4K.png',
 	':rainbowdash:': 'http://i.imgur.com/V6rpD1f.gif',
 	'banishrain': 'http://i.imgur.com/jNKoyZs.png',
 	':rarity:': 'http://i.imgur.com/p8DP65c.gif',
