@@ -9,6 +9,13 @@ var color = require('../config/color');
 exports.parseEmoticons = parseEmoticons;
 
 var emotes = {
+        'washlestia': 'http://i.imgur.com/38xAXGq.gif',
+        'boolestia': 'http://i.imgur.com/mNix9tJ.png',
+        'munchlestia': 'http://i.imgur.com/eTosN3R.png',
+        'luniet': 'http://i.imgur.com/8aYYBLu.png',
+        'batshy': 'http://i.imgur.com/VsJoiNf.png',
+        'twinkie': 'http://i.imgur.com/1i0SWEr.jpg',
+        'lunbath': 'http://i.imgur.com/cckDJKC.png',
         ':fluttershy:': 'http://i.imgur.com/Q56mz3L.gif',
         'rainming': 'http://i.imgur.com/mfNeL0Y.png',
         ':compu:': 'http://i.imgur.com/UglPsfu.png',
