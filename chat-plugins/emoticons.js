@@ -172,7 +172,7 @@ var emotes = {
         'rarekiss': 'http://i.imgur.com/dOPLtdi.png',
         'manehug': 'http://i.imgur.com/sfBCmvA.png',
         'celuna': 'http://i.imgur.com/dTV2fF5.png',
-	':lunestia:': 'http://i.imgur.com/mQxhQzU.png',
+	'lunetia': 'http://i.imgur.com/mQxhQzU.png',
 	'sqhug': 'http://i.imgur.com/LnOpia5.png',
 	'flutterstamp': 'http://i.imgur.com/sHBC2h2.png',
 	'rainkiss': 'http://i.imgur.com/p0C40QY.png',
