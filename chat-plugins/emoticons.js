@@ -10,6 +10,10 @@ exports.parseEmoticons = parseEmoticons;
 
 var emotes = {
         'washlestia': 'http://i.imgur.com/38xAXGq.gif',
+	'derpwithit': 'http://i.imgur.com/t1tn20p.png',
+	'ohyes': 'http://i.imgur.com/K91Y4Js.png',
+	'lickiepie': 'http://i.imgur.com/Fje46VY.jpg',
+	'0yes': 'http://i.imgur.com/Fje46VY.jpg',
         'boolestia': 'http://i.imgur.com/mNix9tJ.png',
         'munchlestia': 'http://i.imgur.com/eTosN3R.png',
         'luniet': 'http://i.imgur.com/8aYYBLu.png',
@@ -49,6 +53,7 @@ var emotes = {
 	'celenny': 'http://i.imgur.com/QGeRmLk.gif',
 	':yes:': 'http://i.imgur.com/NmzYjfE.gif',
 	'dontlietome': 'http://i.imgur.com/afl2ZrU.gif',
+	':tc:': 'http://i.imgur.com/s5RqCPH.gif',
 	':mmm:': 'http://i.imgur.com/TzSz840.gif',
 	':okay:': 'http://i.imgur.com/cLdAFmE.gif',
 	'comfo': 'http://i.imgur.com/mXcuPJF.gif',
