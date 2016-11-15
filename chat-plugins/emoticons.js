@@ -12,7 +12,7 @@ var emotes = {
         'washlestia': 'http://i.imgur.com/38xAXGq.gif',
 	'derpwithit': 'http://i.imgur.com/t1tn20p.png',
 	'ohyes': 'http://i.imgur.com/K91Y4Js.png',
-	'lickiepie': 'http://i.imgur.com/Fje46VY.jpg',
+	'lickiepie': 'http://i.imgur.com/6dgER1c.png',
 	'0yes': 'http://i.imgur.com/Fje46VY.jpg',
         'boolestia': 'http://i.imgur.com/mNix9tJ.png',
         'munchlestia': 'http://i.imgur.com/eTosN3R.png',
