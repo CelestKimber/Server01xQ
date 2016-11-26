@@ -66,7 +66,7 @@ exports.commands = {
 		var article = toId(params[0]);
 		switch (article) {
 			case 'customtc':
-				prize = 4000;
+				prize = 2000;
 				if (Shop.getUserMoney(user.name) < prize) return this.sendReply("No tienes suficiente dinero.");
 				var tcUser = Shop.getTrainerCard(user.name);
 				if (!tcUser) {
@@ -99,7 +99,7 @@ exports.commands = {
 				return this.sendReply("Has comprado un Sprite de un pokemon para tu TC. Revisa /shophelp para más información.");
 				break;
 			case 'chatroom':
-				prize = 5000;
+				prize = 3000;
 				if (Shop.getUserMoney(user.name) < prize) return this.sendReply("No tienes suficiente dinero.");
 				if (params.length !== 2) return this.sendReply("Usa el comando así: /buy chatroom,[nombre]");
 				var id = toId(params[1]);
@@ -122,7 +122,7 @@ exports.commands = {
 				return this.sendReply("Has comprado el permiso para usar los comandos /customsymbol y /resetsymbol. Para más información consulta /shophelp.");
 				break;
 			case 'avatar':
-				prize = 1000;
+				prize = 500;
 				if (Shop.getUserMoney(user.name) < prize) return this.sendReply("No tienes suficiente dinero.");
 				if (!Config.customavatars[user.userid]) return this.sendReply("No tenías un avatar personalizado.");
 				if (params.length !== 2) return this.sendReply("Usa el comando así: /buy avatar,[imagen]");
@@ -132,7 +132,7 @@ exports.commands = {
 				return this.sendReply("Has solicitado un cambio de tu avatar personalizado. Espera a que un admin revise tu compra.");
 				break;
 			case 'customavatar':
-				prize = 3000;
+				prize = 1500;
 				if (Shop.getUserMoney(user.name) < prize) return this.sendReply("No tienes suficiente dinero.");
 				if (Config.customavatars[user.userid]) return this.sendReply("Ya habías comprado este artículo. Para cambiar tu avatar compra la opcion Avatar");
 				if (params.length !== 2) return this.sendReply("Usa el comando así: /buy avatar,[imagen]");
@@ -142,7 +142,7 @@ exports.commands = {
 				return this.sendReply("Has solicitado un avatar personalizado. Espera a que un admin revise tu compra.");
 				break;
 			case 'icon':
-				prize = 2000;
+				prize = 1000;
 				if (Shop.getUserMoney(user.name) < prize) return this.sendReply("No tienes suficiente dinero.");
 				Shop.removeMoney(user.name, prize);
 				return this.sendReply("Has comprado un Icono!!, Contacta a un administrador para recibir tu objeto");
