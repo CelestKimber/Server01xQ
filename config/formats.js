@@ -5,7 +5,31 @@ exports.Formats = [
 
 	// XY Singles
 	///////////////////////////////////////////////////////////////////
+	{
+		name: "[Gen 7] OU",
+        section: "ORAS Singles",
+        
+		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Baton Pass Clause'],
+		banlist: ['Uber', 'Power Construct', 'Shadow Tag'],
+	},
+			{
+		name: "[Gen 7] Random Battle",
+		section: "ORAS Singles",
 
+		team: 'random',
+		ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
+	},
+		{
+		name: "[Gen 7] Monotype",
+		section: "ORAS Singles",
+
+		ruleset: ['Pokemon', 'Standard', 'Baton Pass Clause', 'Swagger Clause', 'Same Type Clause', 'Team Preview'],
+		banlist: [
+			'Aegislash', 'Arceus', 'Blaziken', 'Darkrai', 'Deoxys-Base', 'Deoxys-Attack', 'Dialga', 'Genesect', 'Giratina', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-White',
+			'Lugia', 'Lunala', 'Mewtwo', 'Palkia', 'Pheromosa', 'Rayquaza', 'Reshiram', 'Shaymin-Sky', 'Solgaleo', 'Tapu Lele', 'Xerneas', 'Yveltal', 'Zekrom', 'Zygarde-10%',
+			'Power Construct', 'Damp Rock', 'Gengarite', 'Kangaskhanite', 'Lucarionite', 'Mawilite', 'Salamencite', 'Smooth Rock', 'Terrain Extender',
+		],
+	},
 	{
 		name: "Random Battle",
 		section: "ORAS Singles",
