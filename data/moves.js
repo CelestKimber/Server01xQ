@@ -3202,39 +3202,26 @@ exports.BattleMovedex = {
 		priority: 0,
 		flags: {authentic: 1},
 		volatileStatus: 'destinybond',
-		onPrepareHit: function (pokemon) {
-			return !pokemon.removeVolatile('destinybond');
-		},
 		effect: {
 			onStart: function (pokemon) {
 				this.add('-singlemove', pokemon, 'Destiny Bond');
 			},
 			onFaint: function (target, source, effect) {
-				if (!source || !effect || target.side === source.side) return;
+				if (!source || !effect) return;
 				if (effect.effectType === 'Move' && !effect.isFutureMove) {
-					this.add('-activate', target, 'move: Destiny Bond');
+					this.add('-activate', target, 'Destiny Bond');
 					source.faint();
 				}
 			},
-			onBeforeMovePriority: -1,
-			onBeforeMove: function (pokemon, target, move) {
-				if (move.id === 'destinybond') return;
+			onBeforeMovePriority: 100,
+			onBeforeMove: function (pokemon) {
 				this.debug('removing Destiny Bond before attack');
 				pokemon.removeVolatile('destinybond');
-			},
-			onMoveAborted: function (pokemon, target, move) {
-				pokemon.removeVolatile('destinybond');
-			},
-			onBeforeSwitchOutPriority: 1,
-			onBeforeSwitchOut: function (pokemon) {
-				pokemon.removeVolatile('destinybond');
-			},
+			}
 		},
 		secondary: false,
 		target: "self",
-		type: "Ghost",
-		zMoveEffect: 'redirect',
-		contestType: "Clever",
+		type: "Ghost"
 	},
 	"detect": {
 		num: 197,
