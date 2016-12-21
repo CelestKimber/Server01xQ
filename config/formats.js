@@ -1,27 +1,29 @@
+'use strict';
+
 // Note: This is the list of formats
 // The rules that formats use are stored in data/rulesets.js
 
 exports.Formats = [
 
-	// XY Singles
-	///////////////////////////////////////////////////////////////////
+	// SM Singles
+    ///////////////////////////////////////////////////////////////////
 	{
 		name: "[Gen 7] OU",
-        section: "ORAS Singles",
+        section: "SM Singles (beta)",
         
 		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Baton Pass Clause'],
 		banlist: ['Uber', 'Power Construct', 'Shadow Tag'],
 	},
 			{
 		name: "[Gen 7] Random Battle",
-		section: "ORAS Singles",
+		section: "SM Singles (beta)",
 
 		team: 'random',
 		ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
 	},
 		{
 		name: "[Gen 7] Monotype",
-		section: "ORAS Singles",
+		section: "SM Singles (beta)",
 
 		ruleset: ['Pokemon', 'Standard', 'Baton Pass Clause', 'Swagger Clause', 'Same Type Clause', 'Team Preview'],
 		banlist: [
@@ -30,6 +32,8 @@ exports.Formats = [
 			'Power Construct', 'Damp Rock', 'Gengarite', 'Kangaskhanite', 'Lucarionite', 'Mawilite', 'Salamencite', 'Smooth Rock', 'Terrain Extender',
 		],
 	},
+	// XY Singles
+	///////////////////////////////////////////////////////////////////
 	{
 		name: "Random Battle",
 		section: "ORAS Singles",
