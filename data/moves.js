@@ -7472,9 +7472,7 @@ exports.BattleMovedex = {
 		},
 		secondary: false,
 		target: "normal",
-		type: "Normal",
-		zMovePower: 120,
-		contestType: "Clever",
+		type: "Normal"
 	},
 	"hiddenpowerbug": {
 		accuracy: 100,
@@ -7489,8 +7487,7 @@ exports.BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Bug",
-		contestType: "Clever",
+		type: "Bug"
 	},
 	"hiddenpowerdark": {
 		accuracy: 100,
@@ -7505,8 +7502,7 @@ exports.BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Dark",
-		contestType: "Clever",
+		type: "Dark"
 	},
 	"hiddenpowerdragon": {
 		accuracy: 100,
@@ -7521,8 +7517,7 @@ exports.BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Dragon",
-		contestType: "Clever",
+		type: "Dragon"
 	},
 	"hiddenpowerelectric": {
 		accuracy: 100,
@@ -7531,15 +7526,13 @@ exports.BattleMovedex = {
 		desc: "",
 		shortDesc: "",
 		id: "hiddenpower",
-		isViable: true,
 		name: "Hidden Power Electric",
 		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Electric",
-		contestType: "Clever",
+		type: "Electric"
 	},
 	"hiddenpowerfighting": {
 		accuracy: 100,
@@ -7548,15 +7541,13 @@ exports.BattleMovedex = {
 		desc: "",
 		shortDesc: "",
 		id: "hiddenpower",
-		isViable: true,
 		name: "Hidden Power Fighting",
 		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Fighting",
-		contestType: "Clever",
+		type: "Fighting"
 	},
 	"hiddenpowerfire": {
 		accuracy: 100,
@@ -7572,8 +7563,7 @@ exports.BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Fire",
-		contestType: "Clever",
+		type: "Fire"
 	},
 	"hiddenpowerflying": {
 		accuracy: 100,
@@ -7588,8 +7578,7 @@ exports.BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Flying",
-		contestType: "Clever",
+		type: "Flying"
 	},
 	"hiddenpowerghost": {
 		accuracy: 100,
@@ -7604,8 +7593,7 @@ exports.BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Ghost",
-		contestType: "Clever",
+		type: "Ghost"
 	},
 	"hiddenpowergrass": {
 		accuracy: 100,
@@ -7614,15 +7602,13 @@ exports.BattleMovedex = {
 		desc: "",
 		shortDesc: "",
 		id: "hiddenpower",
-		isViable: true,
 		name: "Hidden Power Grass",
 		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Grass",
-		contestType: "Clever",
+		type: "Grass"
 	},
 	"hiddenpowerground": {
 		accuracy: 100,
@@ -7637,8 +7623,7 @@ exports.BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Ground",
-		contestType: "Clever",
+		type: "Ground"
 	},
 	"hiddenpowerice": {
 		accuracy: 100,
@@ -7654,8 +7639,7 @@ exports.BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Ice",
-		contestType: "Clever",
+		type: "Ice"
 	},
 	"hiddenpowerpoison": {
 		accuracy: 100,
@@ -7670,8 +7654,7 @@ exports.BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Poison",
-		contestType: "Clever",
+		type: "Poison"
 	},
 	"hiddenpowerpsychic": {
 		accuracy: 100,
@@ -7686,8 +7669,7 @@ exports.BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Psychic",
-		contestType: "Clever",
+		type: "Psychic"
 	},
 	"hiddenpowerrock": {
 		accuracy: 100,
@@ -7702,8 +7684,7 @@ exports.BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Rock",
-		contestType: "Clever",
+		type: "Rock"
 	},
 	"hiddenpowersteel": {
 		accuracy: 100,
@@ -7718,8 +7699,7 @@ exports.BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Steel",
-		contestType: "Clever",
+		type: "Steel"
 	},
 	"hiddenpowerwater": {
 		accuracy: 100,
@@ -7734,8 +7714,7 @@ exports.BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: false,
 		target: "normal",
-		type: "Water",
-		contestType: "Clever",
+		type: "Water"
 	},
 	"highhorsepower": {
 		num: 667,
